@@ -1,0 +1,94 @@
+# === Global Ignore Rules ===
+
+# Node
+node_modules/
+*.log
+*.tsbuildinfo
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled output
+dist/
+build/
+web-build/
+temp/
+tmp/
+.cache/
+.out/
+
+# Runtime data
+*.pid
+*.pid.lock
+*.seed
+pids
+*.orig.*
+
+# Diagnostic reports
+report.*.json
+
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Dotenv and Env Files ===
+*.env
+.env*
+!.env.example
+
+# === IDE and Editor files ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+.project
+.classpath
+.settings/
+.c9/
+
+# === Backend (NestJS) Specific ===
+/backend/node_modules
+/backend/dist
+/backend/build
+/backend/logs
+/backend/coverage
+/backend/.nyc_output
+/backend/.env
+/backend/.env.local
+/backend/.temp
+/backend/.tmp
+/backend/*.log
+/backend/*.pid
+/backend/report.*.json
+
+# === Frontend (React Native + Expo) Specific ===
+/FYP-Frontend/node_modules
+/FYP-Frontend/.expo
+/FYP-Frontend/.expo-shared
+/FYP-Frontend/dist
+/FYP-Frontend/build
+/FYP-Frontend/web-build
+/FYP-Frontend/.env
+/FYP-Frontend/.env.local
+/FYP-Frontend/coverage
+/FYP-Frontend/.cache
+/FYP-Frontend/logs
+/FYP-Frontend/*.log
+/FYP-Frontend/expo-env.d.ts
+/FYP-Frontend/android
+/FYP-Frontend/ios
+
+# === Sensitive config ===
+/FYP-Frontend/config.ts
+/backend/config.ts
