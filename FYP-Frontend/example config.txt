@@ -1,0 +1,10 @@
+config.ts
+
+// src/config.ts
+export const CONFIG = {
+    API_URL: 'http://your-api-url.com', // Replace with your actual API URL
+    AUTH_PORT:3000,
+    OPEN_WEATHER_API_KEY:'OPEN_WEATHER_API_KEY'----->https://openweathermap.org/
+
+};
+  
